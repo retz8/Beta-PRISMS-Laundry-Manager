@@ -1,0 +1,87 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    height:27.5vh;
+    width:13.75vw;
+}
+.machine1{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left: 14vw;
+    top: 39vh;
+}
+.machine0{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left:14vw;
+    top:64vh;
+}
+.machine2{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left: 14vw;
+    top:6vh;
+}
+.machine3{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left:23.8vw;
+    top:6vh;
+}
+.machine4{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left:36.8vw;
+    top:6vh;
+}
+.machine5{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left:46.6vw;
+    top:6vh;
+}
+.machine6{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left:56.4vw;
+    top:6vh;
+}
+.machine7{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left:66vw;
+    top:47vh;
+}
+.machine8{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left:75.8vw;
+    top:47vh;
+}
+.machine9{
+    position:absolute;
+    width: 10vw;
+    height: 25vh; 
+    left:85.6vw;
+    top:47vh;
+}
+.instruction{
+    position:absolute;
+    width: 36vw;
+    height: 33vh;
+    left: 26vw;
+    top: 43vh;
+}
