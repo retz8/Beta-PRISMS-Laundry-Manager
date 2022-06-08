@@ -3,6 +3,8 @@ import { RealtimeData } from './components/realtimeData';
 import { RealtimeDataMobile } from './components/realtimeDataMobile';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserView, MobileView } from 'react-device-detect';
+import {Helmet} from "react-helmet";
+
 function App() {
   return (
     
@@ -10,7 +12,12 @@ function App() {
     //   <RealtimeData/>
     //   <img className = "logo" alt = "plLogo" src = {require("./components/img/logo.png")}/>
     // </div>
+
     <div>
+      <Helmet>
+        <title>PRISMS Laundry Manager</title>
+      </Helmet>
+
       <BrowserView>
         <RealtimeData/> 
         <img className = "logo" alt = "plLogo" src = {require("./components/img/logo.png")}/>
