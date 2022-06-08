@@ -79,11 +79,11 @@ export class RealtimeDataMobile extends React.Component {
                                     ): (
                                         machine.status === "pause" ? (
                                             <div>
-                                                <img className={cName} alt = "orange washer" src={require("../img/purple_dryer.jpg")} /> 
+                                                <img className={cName} alt = "orange washer" src={require("../img/purple_washer.jpg")} /> 
                                             </div>
                                         ): (
                                             <div>
-                                                <img className={cName} alt = "empty washer" src={require("../img/empty_dryer.png")} /> 
+                                                <img className={cName} alt = "empty washer" src={require("../img/empty_washer.png")} /> 
                                             </div>
                                         )
                                     )
