@@ -1,3 +1,6 @@
+## PRISMS Laundry Manager
+This project is developing application and webpage for managing laundry room in PRISMS campus. It can display all of the status of machines in the laundry room.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
