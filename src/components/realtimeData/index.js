@@ -50,7 +50,7 @@ export class RealtimeData extends React.Component {
                                     ): (
                                         machine.status === "pause" ? (
                                             <div>
-                                                <img className={cName} alt = "orange dryer" src={require("../img/purple_dryer.jpg")} /> 
+                                                <img className={cName} alt = "orange dryer" src={require("../img/orange_dryer.jpg")} /> 
                                             </div>
                                         ): (
                                             <div>
@@ -80,7 +80,7 @@ export class RealtimeData extends React.Component {
                                     ): (
                                         machine.status === "pause" ? (
                                             <div>
-                                                <img className={cName} alt = "orange washer" src={require("../img/purple_washer.jpg")} /> 
+                                                <img className={cName} alt = "orange washer" src={require("../img/orange_washer.jpg")} /> 
                                             </div>
                                         ): (
                                             <div>
